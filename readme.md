@@ -1,12 +1,12 @@
 # Enhanced Tic Tac Toe with AI
 
-Welcome to **Enhanced Tic Tac Toe with AI**! This project is a visually appealing and interactive Tic Tac Toe game developed using Python's `tkinter` library. The game includes an AI opponent powered by the Minimax algorithm to ensure a challenging gameplay experience. It also features a score-tracking system and enhanced UI elements for an engaging user experience.
+Welcome to **Enhanced Tic Tac Toe with AI**! This project is a visually appealing and interactive Tic Tac Toe game developed using Python's `tkinter` library. The game includes an AI opponent powered by the Minmax algorithm to ensure a challenging gameplay experience. It also features a score-tracking system and enhanced UI elements for an engaging user experience.
 
 ---
 
 ## Features
 
-- **Player vs AI Gameplay:** Play against an AI opponent with optimal moves calculated using the Minimax algorithm.
+- **Player vs AI Gameplay:** Play against an AI opponent with optimal moves calculated using the Minmax algorithm.
 - **Dynamic UI:**
   - Highlight winning combinations.
   - Button animations for enhanced visual appeal.
@@ -64,10 +64,10 @@ Ensure you have Python 3.x installed along with the `tkinter` library.
 
 ## Code Highlights
 
-### Minimax Algorithm
-The AI uses the Minimax algorithm to determine the best possible move:
+### Minmax Algorithm
+The AI uses the Minmax algorithm to determine the best possible move:
 ```python
-    def minimax(self, new_board, is_maximizing):
+    def minmax(self, new_board, is_maximizing):
         winner = self.check_winner_minimax(new_board)
         if winner == AI:
             return {'score': 1}
